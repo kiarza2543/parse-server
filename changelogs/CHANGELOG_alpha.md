@@ -1,3 +1,24 @@
+# [6.4.0-alpha.7](https://github.com/parse-community/parse-server/compare/6.4.0-alpha.6...6.4.0-alpha.7) (2023-10-25)
+
+
+### Features
+
+* Add `$setOnInsert` operator to `Parse.Server.database.update` ([#8791](https://github.com/parse-community/parse-server/issues/8791)) ([f630a45](https://github.com/parse-community/parse-server/commit/f630a45aa5e87bc73a81fded061400c199b71a29))
+
+# [6.4.0-alpha.6](https://github.com/parse-community/parse-server/compare/6.4.0-alpha.5...6.4.0-alpha.6) (2023-10-18)
+
+
+### Bug Fixes
+
+* Security bump @babel/traverse from 7.20.5 to 7.23.2 ([#8777](https://github.com/parse-community/parse-server/issues/8777)) ([2d6b3d1](https://github.com/parse-community/parse-server/commit/2d6b3d18499179e99be116f25c0850d3f449509c))
+
+# [6.4.0-alpha.5](https://github.com/parse-community/parse-server/compare/6.4.0-alpha.4...6.4.0-alpha.5) (2023-10-14)
+
+
+### Bug Fixes
+
+* Context not passed to Cloud Code Trigger `beforeFind` when using `Parse.Query.include` ([#8765](https://github.com/parse-community/parse-server/issues/8765)) ([7d32d89](https://github.com/parse-community/parse-server/commit/7d32d8934f3ae7af7a7d8b9cc6a829c7d73973d3))
+
 # [6.4.0-alpha.4](https://github.com/parse-community/parse-server/compare/6.4.0-alpha.3...6.4.0-alpha.4) (2023-09-29)
 
 
