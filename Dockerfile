@@ -1,7 +1,7 @@
 ############################################################
 # Build stage
 ############################################################
-FROM node:lts-alpine AS build
+FROM node:20.15.1-alpine3.20 AS build
 
 RUN apk --no-cache add git
 WORKDIR /tmp
@@ -24,7 +24,7 @@ RUN npm ci --omit=dev --ignore-scripts \
 ############################################################
 # Release stage
 ############################################################
-FROM node:lts-alpine AS release
+FROM node:20.15.1-alpine3.20 AS release
 
 VOLUME /parse-server/cloud /parse-server/config
 
